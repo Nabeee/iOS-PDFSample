@@ -13,6 +13,9 @@
 		4FF4B8711D1005FF00F10A5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF4B86F1D1005FF00F10A5F /* Main.storyboard */; };
 		4FF4B8731D1005FF00F10A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FF4B8721D1005FF00F10A5F /* Assets.xcassets */; };
 		4FF4B8761D1005FF00F10A5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF4B8741D1005FF00F10A5F /* LaunchScreen.storyboard */; };
+		4FF4B87F1D10073100F10A5F /* GeneratePDF.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF4B87E1D10073100F10A5F /* GeneratePDF.m */; };
+		4FF4B8811D1007BB00F10A5F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF4B8801D1007BB00F10A5F /* QuartzCore.framework */; };
+		4FF4B8831D1007CC00F10A5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF4B8821D1007CC00F10A5F /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		4FF4B8721D1005FF00F10A5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FF4B8751D1005FF00F10A5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FF4B8771D1005FF00F10A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FF4B87D1D10073100F10A5F /* GeneratePDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratePDF.h; sourceTree = "<group>"; };
+		4FF4B87E1D10073100F10A5F /* GeneratePDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratePDF.m; sourceTree = "<group>"; };
+		4FF4B8801D1007BB00F10A5F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4FF4B8821D1007CC00F10A5F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +40,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FF4B8831D1007CC00F10A5F /* UIKit.framework in Frameworks */,
+				4FF4B8811D1007BB00F10A5F /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,8 @@
 		4FF4B85A1D1005FE00F10A5F = {
 			isa = PBXGroup;
 			children = (
+				4FF4B8821D1007CC00F10A5F /* UIKit.framework */,
+				4FF4B8801D1007BB00F10A5F /* QuartzCore.framework */,
 				4FF4B8651D1005FF00F10A5F /* PDFSample */,
 				4FF4B8641D1005FE00F10A5F /* Products */,
 			);
@@ -67,6 +78,8 @@
 				4FF4B8741D1005FF00F10A5F /* LaunchScreen.storyboard */,
 				4FF4B8771D1005FF00F10A5F /* Info.plist */,
 				4FF4B8661D1005FF00F10A5F /* Supporting Files */,
+				4FF4B87D1D10073100F10A5F /* GeneratePDF.h */,
+				4FF4B87E1D10073100F10A5F /* GeneratePDF.m */,
 			);
 			path = PDFSample;
 			sourceTree = "<group>";
@@ -150,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FF4B86E1D1005FF00F10A5F /* ViewController.m in Sources */,
+				4FF4B87F1D10073100F10A5F /* GeneratePDF.m in Sources */,
 				4FF4B86B1D1005FF00F10A5F /* AppDelegate.m in Sources */,
 				4FF4B8681D1005FF00F10A5F /* main.m in Sources */,
 			);
